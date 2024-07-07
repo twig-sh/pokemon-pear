@@ -396,6 +396,10 @@ LittlerootTown_EventScript_TownSign::
 	msgbox LittlerootTown_Text_TownSign, MSGBOX_SIGN
 	end
 
+LittlerootTown_EventScript_SubscribeSign::
+	msgbox LittlerootTown_Text_SubscribeSign, MSGBOX_SIGN
+	end
+
 LittlerootTown_EventScript_BirchsLabSign::
 	msgbox LittlerootTown_Text_ProfBirchsLab, MSGBOX_SIGN
 	end
@@ -1018,4 +1022,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I gave you?\p"
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
+
+LittlerootTown_Text_SubscribeSign:
+	.string "Subscribe to Twig!$"
 
