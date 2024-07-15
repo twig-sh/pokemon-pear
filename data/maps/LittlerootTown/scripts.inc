@@ -400,6 +400,10 @@ LittlerootTown_EventScript_SubscribeSign::
 	msgbox LittlerootTown_Text_SubscribeSign, MSGBOX_SIGN
 	end
 
+LittlerootTown_EventScript_DumbSign::
+	msgbox LittlerootTown_Text_DumbSign, MSGBOX_SIGN
+	end
+
 LittlerootTown_EventScript_BirchsLabSign::
 	msgbox LittlerootTown_Text_ProfBirchsLab, MSGBOX_SIGN
 	end
@@ -1025,4 +1029,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 
 LittlerootTown_Text_SubscribeSign:
 	.string "Subscribe to Twig!$"
+
+LittlerootTown_Text_DumbSign:
+	.string "ur dumb lol$"
 
